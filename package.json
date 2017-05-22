@@ -1,0 +1,30 @@
+{
+  "name": "gnome-bootstrap-theme",
+  "version": "1.0.0",
+  "description": "Bootstrap theme for GNOME websites",
+  "main": "./src/index.js",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.14.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "scripts": {
+    "test": "",
+    "dev": "webpack",
+    "prod": "webpack -p",
+    "clean": "rm -rf dist/",
+    "start": "webpack-dev-server -d --progress --colors --inline --hot --port 8000"
+  },
+  "author": "Tom Tryfonidis <tomtryf@gnome.org>",
+  "license": "ISC"
+}

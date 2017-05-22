@@ -1,0 +1,42 @@
+/* Typography */
+/* ========================================================================== */
+
+$font-size-base: 14px;
+
+$icon-font-path: "~/bootstrap-sass/assets/fonts/bootstrap/";
+
+$font-family-sans-serif: 'Source Sans Pro', Cantarell, 'Droid Sans', Ubuntu, 'DejaVu Sans', Arial, sans-serif;
+
+/* Colors */
+/* ========================================================================== */
+
+$white:  #ffffff !default;
+$black:  #000000 !default;
+
+$gnome-primary: #4a86cf;
+$gnome-orange: #f57900;
+$gnome-green: #4e9a06;
+$gnome-turquoise: #01808f;
+$gnome-purple: #692c52;
+
+
+
+/* Navbar */
+/* ========================================================================== */
+
+$navbar-default-bg: $gnome-primary;
+$navbar-default-link-color: $white;
+
+
+$border-radius-base: 2px;
+$gray-base: $black;
+$brand-primary: $gnome-primary;
+
+
+$btn-action-bg: #eee;
+$btn-action-border: darken($btn-action-bg, 5%);
+
+$btn-login-bg: #3e5e9f;
+$btn-login-color: $white;
+$btn-login-border: darken($btn-login-bg, 5%);
+

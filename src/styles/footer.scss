@@ -1,0 +1,34 @@
+.footer {
+    color: #919191;
+    background-color: $black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+
+    a {
+        color: $white;
+        outline: 0;
+        transition: all .35s;
+        margin: 6px 0;
+        font-size: 14px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+    }
+}
+
+/* Sticky Footer */
+
+.gnome-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.gnome-content {
+    flex: 1;
+}

@@ -1,0 +1,15 @@
+.btn {
+    padding: 6px 30px;
+}
+
+.btn-wide {
+    padding: 4px 30px;
+}
+
+.btn-action {
+    @include button-variant($btn-default-color, $btn-action-bg, $btn-action-border);
+}
+
+.btn-login {
+    @include button-variant(transparent, transparent, transparent);
+}

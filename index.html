@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Good morning, GNOME -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#4a86cf">
+    <meta name="application-name" content="GNOME.org Website">
+    <link rel="icon" type="image/png" href="src/images/favicon.ico" />
+
+    <title>GNOME Deneb</title>
+    <link href="deneb.css" rel="stylesheet">
+
+<style>
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #e7e7e7;
+}
+.bg-dark {
+    background: #f6f6f6;
+}
+.fake-nav {
+    background-color: #4a86cf;
+    height: 50px;
+}
+.color-panels {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+</style>
+</head>
+<body class="gnome-body">
+
+    <header class="gnome-header">
+        <nav class="navbar navbar-fixed-top navbar-default affix-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wrapper" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <button aria-label="Search" class="search-icon search-icon-mobile js-search-toggle visible-xs-block pull-right" type="button"><img src="src/images/search-icon.svg"></button>
+                    <a class="gnome-navbar-brand"  title="Go to home page">
+                        <img src="src/images/gnome-logo.svg" alt="GNOME: The Free Software Desktop Project">
+                    </a>
+                </div>
+
+                <div class="search-box js-search-box">
+                <input id="search_input" class="search-input js-search" placeholder="Search" type="text">
+                <span class="form-icon"><img src="src/images/search-icon.svg"></span>
+                <button aria-label="Close search" class="search-close js-search-toggle" type="button"><img src="src/images/close.svg"></button>
+                </div>
+
+                <div class="nav navbar-nav navbar-right">
+                    <li class="hidden-xs">
+                        <button aria-label="Search" class="search-icon js-search-toggle" type="button"><img src="src/images/search-icon.svg"></button>
+                    </li>
+                </div>
+                <div class="nav navbar-nav navbar-right">
+                <li id="userDropdownMenu1" class="dropdown">
+                <a href="#" class="dropdown-toggle btn btn-wide btn-login hidden-xs" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign In</a> 
+                <a href="#" class="dropdown-toggle visible-xs" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="src/images/avatar-default.svg"></a> 
+                        <ul class="dropdown-menu" aria-labelledby="drop3">
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <form action="#" method="post" class="form">
+                                            <div class="form-group">
+                                                <input name="username" id="id_username" class="form-control" placeholder="Username" type="text">
+                                            </div>
+                                            <div class="form-group">
+                                                <input name="password" id="id_password" class="form-control" placeholder="Password" type="password">
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                                            </div>
+                                            <div class="form-group">
+                                                <a href="#" class="">Forgot your password?</a>
+                                            </div>
+                                            <li class="divider"></li>
+                                            <p>Don’t have an account?</p>
+                                            <div class="form-group">
+                                                <a href="#" class="btn btn-action btn-block">Sign Up</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        </li>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="userDropdownMenu" class="dropdown">
+                        <a href="#" class="dropdown-toggle hidden-xs avatar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img src="https://unsplash.it/g/200?image=972" alt="">
+                        </a>
+                        <ul class="dropdown-menu user-menu">
+                            <li>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <a class="btn btn-link" href="#">User Settings</a>
+                                        <a class="btn btn-link" href="#">Menu item</a>
+                                        <a class="btn btn-link" href="#">Menu item</a>
+                                            <form action="#" method="post" class="form">
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-link">Sign Out</button>
+                                                </div>
+                                            </form>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="navbar-collapse collapse" id="navbar-wrapper">
+                    <ul class="nav navbar-nav">
+                        <li> <a href="#">Menu item</a></li>
+                        <li> <a href="#">Menu item</a></li>
+                        <li class="active"> <a href="#">Menu item</a></li>
+                        <li> <a href="#">Menu item</a></li>
+                        <li> <a href="#">Menu item</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="gnome-content">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="h1 m-t-0">GNOME Deneb</p> Bootstrap theme for GNOME Websites
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-3">
+                        <p class="h1">Typography</p>
+                    </div>
+                    <div class="col-xs-12 col-md-5">
+                        <p class="h1">Heading 1</p>
+                        <p class="h2">Heading 2</p>
+                        <p class="h3">Heading 3</p>
+                        <p class="h4">Heading 4</p>
+                        <p>Body Text</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-3">
+                        <p class="h1 m-t-0">Buttons</p>
+                    </div>
+                    <div class="col-xs-12 col-md-5">
+                        <a href="#" class="btn btn-primary">Button</a>
+                        <a href="#" class="btn btn-success">Button</a>
+                        <a href="#" class="btn btn-default">Button</a>
+                        <a href="#" class="btn btn-action">Button</a>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <pre>&lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Button&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-success&quot;&gt;Button&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/a&gt;
+    &lt;a href=&quot;#&quot; class=&quot;btn btn-action&quot;&gt;Button&lt;/a&gt;</pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="footer m-t-0">
+        <div class="container triangles">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>
+                    &copy; <a href="//gnome.org"> The GNOME Project</a>
+                    </p>
+                    <p>
+                    GNOME Website Example.
+                    Hosted by <a href="#" target="_blank">Host Provider</a>.
+                    Powered by <a href="#" target="_blank">Service</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="deneb.js"></script>
+
+</body>
+</html>

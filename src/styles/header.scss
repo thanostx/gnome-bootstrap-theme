@@ -1,0 +1,70 @@
+.gnome-header {
+    padding-bottom: 90px;
+
+    .gnome-navbar-brand {
+        /*height: 50px;*/
+        padding: 6px 6px 6px 0;
+        float: left;
+        /* outline: 0;
+        margin-left: 7px; */
+
+        img {
+            max-height: 35px;
+            min-width: 35px;
+        }
+    }
+    .avatar {
+        background-color: transparent !important;
+        margin: 10px 15px 10px 0;
+        padding: 0px;
+        
+        img {
+            border-radius: 50%;
+            height:30px;
+            width: 30px;
+        }
+    }
+    .dropdown-menu {
+        margin-top: 15px !important;
+        min-width: 220px;
+        padding: 15px 15px 5px; /* bottom: 5px */
+        box-shadow: none;
+    }
+    .user-menu {
+        a, button {
+            color: $text-color;
+        }
+    }
+}
+
+@media screen and (min-width:767px) {
+  .gnome-header .dropdown-menu {
+    &:after {
+        position: absolute;
+        top: -11px;
+        left: 83%;
+        display: inline-block;
+        border-right: 11px solid transparent;
+        border-bottom: 11px solid #ffffff;
+        border-left: 11px solid transparent;
+        content:'';
+    }
+    &:before {
+        position: absolute;
+        top: -12px;
+        left: 83%;
+        display: inline-block;
+        border-right: 11px solid transparent;
+        border-bottom: 11px solid #ccc;
+        border-left: 11px solid transparent;
+        border-bottom-color: rgba(0, 0, 0, 0.2);
+        content:'';
+    }
+  }
+}
+
+@media screen and (max-width:767px) {
+    .gnome-header .gnome-navbar-brand {
+        margin-left: 15px;
+    }
+}
