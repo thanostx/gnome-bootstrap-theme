@@ -34,7 +34,7 @@ module.exports = {
       },
       {
         test: /\.(jpeg|png|gif|svg)?$/i,
-        use:['file-loader'] 
+        use:['file-loader?name=[name].[ext]']
       }
     ]
   },
