@@ -52,20 +52,22 @@ section {
                 </div>
 
                 <div class="search-box js-search-box">
-                <input id="search_input" class="search-input js-search" placeholder="Search" type="text">
-                <span class="form-icon"><img src="src/images/search-icon.svg"></span>
-                <button aria-label="Close search" class="search-close js-search-toggle" type="button"><img src="src/images/close.svg"></button>
+                  <form role="search" method="get" id="searchform" action="#">
+                      <input id="search_input" name="q" placeholder="Search" class="search-input js-search" type="text">
+                      <span class="form-icon"><img alt="Search icon that opens the searchbar" src="https://static.gnome.org/img/search-icon.svg"></span>
+                     <button aria-label="Close search" class="search-close js-search-toggle" type="button"><img src="https://static.gnome.org/img/close-icon.svg" alt="Icon that closes the searchbar"></button>
+                  </form>
                 </div>
 
                 <div class="nav navbar-nav navbar-right">
                     <li class="hidden-xs">
-                        <button aria-label="Search" class="search-icon js-search-toggle" type="button"><img src="src/images/search-icon.svg"></button>
+                        <button aria-label="Search" class="search-icon js-search-toggle" type="button"><img src="src/images/search-icon.svg" alt="Search icon that opens the searchbar"></button>
                     </li>
                 </div>
                 <div class="nav navbar-nav navbar-right">
                 <li id="userDropdownMenu1" class="dropdown">
                 <a href="#" class="dropdown-toggle btn btn-wide btn-login hidden-xs" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign In</a> 
-                <a href="#" class="dropdown-toggle visible-xs" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="src/images/avatar-default.svg"></a> 
+                <a href="#" class="dropdown-toggle visible-xs" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="src/images/avatar-icon.svg"></a>
                         <ul class="dropdown-menu" aria-labelledby="drop3">
                             <li>
                                 <div class="row">
