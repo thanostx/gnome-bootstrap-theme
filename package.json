@@ -7,12 +7,15 @@
     "bootstrap-sass": "^3.3.7"
   },
   "devDependencies": {
+    "autoprefixer": "^7.1.1",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
+    "browserslist": "^2.1.5",
     "css-loader": "^0.27.3",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
     "node-sass": "^4.5.0",
+    "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.14.1",
     "webpack": "^2.2.1",
